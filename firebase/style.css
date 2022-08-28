@@ -1,0 +1,99 @@
+#mainTitle{
+    color: rgb(73, 80, 87);
+    text-align: center;
+    border-bottom: 2px solid rgb(24, 49, 83);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+#container_bottom{
+    top: 10em;
+    position: relative;
+}
+
+#container_top{
+    top: 2em;
+    position: relative;
+}
+
+#validationServerDate{
+    padding: 0.375rem 0.30rem;
+}
+
+.btn-primary{
+    width: 120px;
+}
+
+thead{
+    background-color: rgb(24, 49, 83);
+    font-weight: 500;
+    width: 100%;
+}
+
+thead td{
+    color: #fff;
+}
+
+tbody td{
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+thead td:nth-child(4){
+    padding-left: 0;
+}
+
+.fa-solid{
+    color: grey;
+    padding: 5px 8px 8px 8px;
+    margin: 0;
+}
+
+.fa-pencil{
+    font-size: 13px;
+}
+
+.fa-solid:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.fa-pencil:hover{
+    color: black;
+}
+
+.trash_icon:hover{
+    color: #b71c1c;
+}
+
+#addButton{
+    border: none;
+    background-color: rgb(20, 110, 190);
+}
+#updateButton{
+    background-color: #b71c1c;
+    width: 140px;
+    position: relative;
+    top: -36px;
+    border: none;
+    display: none;
+}
+
+.sorting_icon_l{
+    color: #fff;
+    padding-right: 3px;
+}
+
+.sorting_icon_r{
+    color: #fff;
+    padding-left: 3px;
+}
+
+.greying{
+    color: #250;
+    font-size: large;
+}
+
+.video_icon{
+    color: rgb(24, 49, 83);
+    font-size: 35px;
+}
